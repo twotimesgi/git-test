@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::resource('/', 'VideogameController');
+Route::resource('/', 'App\Http\Controllers\VideogameController');
