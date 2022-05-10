@@ -15,7 +15,8 @@ class VideogameController extends Controller
      */
     public function index()
     {
-        //
+        $videogames = videogame::all();
+        return view('index', compact('videogames'));
     }
 
     /**
