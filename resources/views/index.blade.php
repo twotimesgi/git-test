@@ -9,11 +9,11 @@
 </head>
 
 <body>
-
+    @dd($videogames)
     @foreach ($videogames as $videogame)
         <h2>{{ $videogame->name }}</h2>
         <h2>{{ $videogame->genre }}</h2>
-        <h2>{{ $videogame->relase_date }}</h2>
+        <h2>{{ $videogame->year }}</h2>
     @endforeach
 
 </body>
