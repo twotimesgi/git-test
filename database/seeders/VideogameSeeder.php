@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use App\Models\videogame;
 
 class VideogameSeeder extends Seeder
 {
@@ -13,6 +14,63 @@ class VideogameSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $arrVideogames = [
+            [
+                "name"          => "Red Dead Redemption",
+                "genre"         => "non lo so",
+                "relase_date"   => "2020-10-02"
+            ],
+            [
+                "name"          => "Red Dead Redemption",
+                "genre"         => "non lo so",
+                "relase_date"   => "2020-10-02"
+            ],
+            [
+                "name"          => "Red Dead Redemption",
+                "genre"         => "non lo so",
+                "relase_date"   => "2020-10-02"
+            ],
+            [
+                "name"          => "Red Dead Redemption",
+                "genre"         => "non lo so",
+                "relase_date"   => "2020-10-02"
+            ],
+            [
+                "name"          => "Red Dead Redemption",
+                "genre"         => "non lo so",
+                "relase_date"   => "2020-10-02"
+            ],
+            [
+                "name"          => "Red Dead Redemption",
+                "genre"         => "non lo so",
+                "relase_date"   => "2020-10-02"
+            ],
+            [
+                "name"          => "Red Dead Redemption",
+                "genre"         => "non lo so",
+                "relase_date"   => "2020-10-02"
+            ],
+            [
+                "name"          => "Red Dead Redemption",
+                "genre"         => "non lo so",
+                "relase_date"   => "2020-10-02"
+            ],
+            [
+                "name"          => "Red Dead Redemption",
+                "genre"         => "non lo so",
+                "relase_date"   => "2020-10-02"
+            ],
+            [
+                "name"          => "Red Dead Redemption",
+                "genre"         => "non lo so",
+                "relase_date"   => "2020-10-02"
+            ],
+        ];
+
+        foreach ($arrVideogames as $videogameData) {
+            $videogame = new Videogame();
+            $videogame->fill($videogameData);
+            $videogame->save();  
+        }
     }
 }
