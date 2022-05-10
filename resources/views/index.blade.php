@@ -9,7 +9,6 @@
 </head>
 
 <body>
-    @dd($videogames)
     @foreach ($videogames as $videogame)
         <h2>{{ $videogame->name }}</h2>
         <h2>{{ $videogame->genre }}</h2>
