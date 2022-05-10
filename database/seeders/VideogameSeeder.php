@@ -3,7 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use App\Models\videogame;
+use App\Models\Videogame;
 
 class VideogameSeeder extends Seeder
 {
