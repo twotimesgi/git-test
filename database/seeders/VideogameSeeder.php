@@ -18,52 +18,52 @@ class VideogameSeeder extends Seeder
             [
                 "name"          => "Red Dead Redemption",
                 "genre"         => "non lo so",
-                "year"   => "2020-10-02"
+                "year"          =>  2020
             ],
             [
                 "name"          => "Red Dead Redemption",
                 "genre"         => "non lo so",
-                "year"   => "2020-10-02"
+                "year"   => 2020
             ],
             [
                 "name"          => "Red Dead Redemption",
                 "genre"         => "non lo so",
-                "year"   => "2020-10-02"
+                "year"   => 2020
             ],
             [
                 "name"          => "Red Dead Redemption",
                 "genre"         => "non lo so",
-                "year"   => "2020-10-02"
+                "year"   => 2020
             ],
             [
                 "name"          => "Red Dead Redemption",
                 "genre"         => "non lo so",
-                "year"   => "2020-10-02"
+                "year"   => 2020
             ],
             [
                 "name"          => "Red Dead Redemption",
                 "genre"         => "non lo so",
-                "year"   => "2020-10-02"
+                "year"   => 2020
             ],
             [
                 "name"          => "Red Dead Redemption",
                 "genre"         => "non lo so",
-                "year"   => "2020-10-02"
+                "year"   => 2020
             ],
             [
                 "name"          => "Red Dead Redemption",
                 "genre"         => "non lo so",
-                "year"   => "2020-10-02"
+                "year"   => 2020
             ],
             [
                 "name"          => "Red Dead Redemption",
                 "genre"         => "non lo so",
-                "year"   => "2020-10-02"
+                "year"   => 2020
             ],
             [
                 "name"          => "Red Dead Redemption",
                 "genre"         => "non lo so",
-                "year"   => "2020-10-02"
+                "year"   => 2020
             ],
         ];
 
